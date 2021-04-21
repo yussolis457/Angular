@@ -6,6 +6,10 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { DadshboardComponent } from './dadshboard/dadshboard.component';
 import { RoutingModule } from '../app-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
+import { ComponentsModule } from '../components/components.module';
+
+import{ChartsModule} from 'ng2-charts';
 
 
 
@@ -25,7 +29,10 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     RoutingModule,
-    SharedModule
+    SharedModule,
+    FormsModule,
+    ChartsModule,
+    ComponentsModule
     
     
   ]
