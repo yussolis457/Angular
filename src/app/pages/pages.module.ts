@@ -11,6 +11,8 @@ import { ComponentsModule } from '../components/components.module';
 
 import{ChartsModule} from 'ng2-charts';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -20,7 +22,9 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     ProgressComponent,
     Grafica1Component,
     DadshboardComponent,
-    AccountSettingComponent
+    AccountSettingComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   exports:[
     PagesComponent,
